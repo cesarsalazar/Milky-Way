@@ -1,0 +1,10 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml"}
+	%head
+		%title
+			= @title || 'MilkyWay' 
+		%meta{:'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }
+		%link{:rel => 'stylesheet', :href => '/global.css', :type => 'text/css', :media => 'all'}
+		
+	%body
+		= yield 

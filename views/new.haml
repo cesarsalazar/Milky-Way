@@ -1,0 +1,6 @@
+.snippet
+	%h1 New code snippet
+	%form{ :action => "/", :method => "POST"}
+		%textarea#snippet_body{ :name => "snippet_body", :rows => "20" }
+		%p
+			%input{ :type => "submit", :value => "Save"}
